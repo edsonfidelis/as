@@ -25,6 +25,7 @@ after_success:
   - . final_report.sh
   
   - git init
+  - git config --list
   - git config user.name "Travis CI"
   - git config user.email "travis@travis.org"
   - git add cucumber_report.html
