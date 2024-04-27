@@ -1,15 +1,11 @@
 <h1>Atividade Somativa - PUCPR</h1>
 <h1>Aluno: Edson Cordao Fidelis</h1>
 <h1></h1>
-<table>
-    <tr>
-        <td>Teste de Texto: </td>
-        <td><input type="text" name="texto" size=40> </td>
-        <td><button>Executar</button></td>
-    </tr>
-    <form>
-        <input type="Text">
-        <button type="submit">Executar</button>
-    </form>
 
-</table>
+
+<form>
+    <h2>Teste de texto</h2>
+    <input type="Text">
+    <button type="submit">Executar</button>
+</form>
+
