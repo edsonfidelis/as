@@ -3,7 +3,7 @@
 <h1></h1>
 <table>
     <tr>
-        <td>Teste de Texto</td>
-        <input type="text" name="texto" size=40> 
+        <td>Teste de Texto: </td>
+        <td><input type="text" name="texto" size=40> </td>
     </tr>
 </table>
