@@ -12,8 +12,8 @@ only:
   - test-ci
   
 script:
-  - docker pull edsonfidelis/as
-  - docker run -v $PWD/:/app/report/ edsonfidelis/as
+  - docker pull edsonfidelis/apache-php
+  - docker run -v $PWD/:/app/report/ edsonfidelis/apache-php
 
 # after_script:
 #   - bash ./telegram_notification.sh
