@@ -26,6 +26,7 @@ after_success:
   
   - git init
   - git config --list
+  - docker ps
   - git config user.name "Travis CI"
   - git config user.email "travis@travis.org"
   - git add cucumber_report.html
