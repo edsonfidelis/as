@@ -5,5 +5,11 @@
     <tr>
         <td>Teste de Texto: </td>
         <td><input type="text" name="texto" size=40> </td>
+        <td><button>Executar</button></td>
     </tr>
+    <form>
+        <input type="Text">
+        <button type="submit">Executar</button>
+    </form>
+
 </table>
