@@ -34,7 +34,6 @@ after_success:
   - git commit -m "Deploy to GitHub Pages"
   - git push --force --quiet "https://${GITHUB_API_KEY}@${GH_REF}" main:gh-pages
   - echo $RESULT
-  - bash /home/travis/build/edsonfidelis/as/telegram_teste.sh
   - bash /home/travis/build/edsonfidelis/as/telegram_notification.sh
   
   
